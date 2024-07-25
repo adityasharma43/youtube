@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(61, 5, 243);
+
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+h1{
+    font-size: 5vw;
+    
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    
+    transform: translate(-50%-50%);
+
+}
+.slider{
+    width: 500px%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    gap: 50px;
+    transform: translate(200%);
+
+
+
+}
+.box{
+    width: 600px;
+    height: 300px;
+    background-color: brown;
+    
+    display: flex;
+}
+
+
+
+
+
+
+
+
